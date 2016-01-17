@@ -1,0 +1,1 @@
+This is the training GitRepo for learning Git and other wonderful things
