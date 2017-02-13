@@ -1,0 +1,6 @@
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\CodeDrills_StaticvsInstance\bin\Debug\CodeDrills_StaticvsInstance.exe.config
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\CodeDrills_StaticvsInstance\bin\Debug\CodeDrills_StaticvsInstance.exe
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\CodeDrills_StaticvsInstance\bin\Debug\CodeDrills_StaticvsInstance.pdb
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\CodeDrills_StaticvsInstance\obj\Debug\CodeDrills_StaticvsInstance.csprojResolveAssemblyReference.cache
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\CodeDrills_StaticvsInstance\obj\Debug\CodeDrills_StaticvsInstance.exe
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\CodeDrills_StaticvsInstance\obj\Debug\CodeDrills_StaticvsInstance.pdb

@@ -1,0 +1,12 @@
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\CodeDrills_ConsoleApp\bin\Debug\CodeDrills_ConsoleApp.exe.config
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\CodeDrills_ConsoleApp\bin\Debug\CodeDrills_ConsoleApp.exe
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\CodeDrills_ConsoleApp\bin\Debug\CodeDrills_ConsoleApp.pdb
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\CodeDrills_ConsoleApp\obj\Debug\CodeDrills_ConsoleApp.csprojResolveAssemblyReference.cache
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\CodeDrills_ConsoleApp\obj\Debug\CodeDrills_ConsoleApp.exe
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\CodeDrills_ConsoleApp\obj\Debug\CodeDrills_ConsoleApp.pdb
+C:\Users\swycoff\Google Drive\GitHub\github_training\BasicCodeDrills\CodeDrills_ConsoleApp\CodeDrills_ConsoleApp\bin\Debug\CodeDrills_ConsoleApp.exe.config
+C:\Users\swycoff\Google Drive\GitHub\github_training\BasicCodeDrills\CodeDrills_ConsoleApp\CodeDrills_ConsoleApp\obj\Debug\CodeDrills_ConsoleApp.exe
+C:\Users\swycoff\Google Drive\GitHub\github_training\BasicCodeDrills\CodeDrills_ConsoleApp\CodeDrills_ConsoleApp\obj\Debug\CodeDrills_ConsoleApp.pdb
+C:\Users\swycoff\Google Drive\GitHub\github_training\BasicCodeDrills\CodeDrills_ConsoleApp\CodeDrills_ConsoleApp\bin\Debug\CodeDrills_ConsoleApp.exe
+C:\Users\swycoff\Google Drive\GitHub\github_training\BasicCodeDrills\CodeDrills_ConsoleApp\CodeDrills_ConsoleApp\bin\Debug\CodeDrills_ConsoleApp.pdb
+C:\Users\swycoff\Google Drive\GitHub\github_training\BasicCodeDrills\CodeDrills_ConsoleApp\CodeDrills_ConsoleApp\obj\Debug\CodeDrills_ConsoleApp.csprojResolveAssemblyReference.cache
