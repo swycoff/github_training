@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodeDrills_ConsoleApp.BasicConsoleDrills
+namespace CodeDrills_ConsoleApp
 {
     /* Reference: //http://www.w3resource.com/csharp-exercises/basic/index.php */
     class BasicConsoleDrills_Strings

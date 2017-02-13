@@ -45,6 +45,7 @@
     <Compile Include="BasicConsoleDrills\BasicConsoleDrills_Numbers.cs" />
     <Compile Include="BasicConsoleDrills\BasicConsoleDrills_Strings.cs" />
     <Compile Include="IO Operations\binaryReaderAndWriter.cs" />
+    <Compile Include="IO Operations\ParsingXMLFiles.cs" />
     <Compile Include="IO Operations\streamReaderExamples.cs" />
     <Compile Include="IO Operations\streamWriterExamples.cs" />
     <Compile Include="Notes\Notes_MakeExamples.cs" />
@@ -54,7 +55,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Files\SampleXMLFile1.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

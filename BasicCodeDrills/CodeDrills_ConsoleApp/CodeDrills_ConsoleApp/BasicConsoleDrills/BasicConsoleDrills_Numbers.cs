@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodeDrills_ConsoleApp.BasicConsoleDrills
+namespace CodeDrills_ConsoleApp
 {
     class BasicConsoleDrills_Numbers
     {
@@ -279,9 +279,75 @@ namespace CodeDrills_ConsoleApp.BasicConsoleDrills
             Console.WriteLine("Fahrenheit = {0}", celsius * 18 / 10 + 32);
         }
 
+        public void GetCombinations_IncludeDuplicates()
+        {
+            Console.WriteLine("Enter a number: ");
+            int usersNumber = Convert.ToInt32(Console.ReadLine());
+
+            List<List<int>> combinations = new List<List<int>>();
+            List<int> results = new List<int>();
+
+            
+            #region Addition
+            for(int i = 0; i<usersNumber; i++)
+            {
+                Console.WriteLine("Combination {0}: {1} + {2} = {3}", i, usersNumber -i, i, usersNumber);
+                
+
+            }            
+            #endregion
+
+            Console.WriteLine("");
+
+            #region Subtraction
+            for(int i = 0; i < usersNumber; i++)
+            {
+                
+                Console.WriteLine("Combination {0}: {1} - {2} = {3}", i+1, usersNumber + i, i, usersNumber);
+            }
+            #endregion
+
+            #region Multiplication
+            for(int i = 0; i<usersNumber; i++)
+            {
+               //nope Console.WriteLine("Combination {0}: {1} * {2} = {3}", i + 1, (usersNumber/(i+1)), i+1, usersNumber);
+            }
+
+            #endregion
+        }
+         public void GetCombinations_NoDuplicates()
+        {
+            Console.WriteLine("Enter a number: ");
+            int usersNumber = Convert.ToInt32(Console.ReadLine());
+
+            List<List<int>> combinations = new List<List<int>>();
+            List<int> results = new List<int>();
+
+
+            #region Addition
+            for (int i = 0; i < usersNumber; i++)
+            {
+                //Simple version (has duplicates)
+                //Console.WriteLine("Combination {0}: {1} + {2} = {3}", i, usersNumber -i, i, usersNumber);
+
+                //Clear the results list (gets a new result every time.
+                //results.Clear();
+                //results.Add(usersNumber - i); // Example Say it is the second loop and the user entered 10.  This would be 10 - 1 = 9  So we know 9 + 1 = 10;
+                //results.Add(i); // This is the number we just used above (1) to minus from the original number.
+                //combinations.Add(results); // This stores the 9 + 1 combination.
+                //Console.WriteLine("Combination {0}: {1} + {2} = {3}", i, results[0], results[1], usersNumber);
+
+            }
+            #endregion
+
+        }
+
+
 
 
 
 
     }
+
+    
 }

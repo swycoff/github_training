@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+  <Student>
+    <Student_Firstname>Student1FN</Student_Firstname>
+    <Student_MiddleName></Student_MiddleName>
+    <Student_LastName>Student1LN</Student_LastName>
+    <Student_Username>Student1UN</Student_Username>
+    <Student_SISID>Student1SISID</Student_SISID>
+    <Student_DBID>123456</Student_DBID>
+    <Student_GradeDBID>1</Student_GradeDBID>
+  </Student>
+  <Student>
+    <Student_Firstname>Student2FN</Student_Firstname>
+    <Student_MiddleName></Student_MiddleName>
+    <Student_LastName>Student2LN</Student_LastName>
+    <Student_Username>Student2UN</Student_Username>
+    <Student_SISID>Student2SISID</Student_SISID>
+    <Student_DBID>1234567</Student_DBID>
+    <Student_GradeDBID>2</Student_GradeDBID>
+  </Student>
+  <Student>
+    <Student_Firstname>Student3FN</Student_Firstname>
+    <Student_MiddleName></Student_MiddleName>
+    <Student_LastName>Student3LN</Student_LastName>
+    <Student_Username>Student3UN</Student_Username>
+    <Student_SISID>Student3SISID</Student_SISID>
+    <Student_DBID>12345678</Student_DBID>
+    <Student_GradeDBID>3</Student_GradeDBID>
+  </Student>
+</Root>
