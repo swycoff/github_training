@@ -1,1 +1,1 @@
-This is the training GitRepo for learning Git and other wonderful things
+This is the training repo for all sorts of wonderful topics.
