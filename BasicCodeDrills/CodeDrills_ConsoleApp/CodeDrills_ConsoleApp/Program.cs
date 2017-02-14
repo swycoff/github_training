@@ -10,11 +10,13 @@ namespace CodeDrills_ConsoleApp
     {
         static void Main(string[] args)
         {
-            //BasicConsoleDrills_Numbers BCD_Numbers = new BasicConsoleDrills_Numbers();
-            //BCD_Numbers.GetCombinations_IncludeDuplicates();
+            BasicConsoleDrills_Numbers BCD_Numbers = new BasicConsoleDrills_Numbers();
+           // BCD_Numbers.GetCombinations_AdditionNoDuplicates();
+            BCD_Numbers.GetCombinations_SubtractionNoDuplicates();
+            //BCD_Numbers.GetCombinations_NoDuplicates();
 
-            ParsingXMLFiles pXML = new ParsingXMLFiles();
-            pXML.parseXMLFile();
+            //ParsingXMLFiles pXML = new ParsingXMLFiles();
+            //pXML.parseXMLFile();
         }
     }
 }

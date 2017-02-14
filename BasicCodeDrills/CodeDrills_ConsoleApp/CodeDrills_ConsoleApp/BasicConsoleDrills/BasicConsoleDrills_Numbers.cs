@@ -279,63 +279,90 @@ namespace CodeDrills_ConsoleApp
             Console.WriteLine("Fahrenheit = {0}", celsius * 18 / 10 + 32);
         }
 
-        public void GetCombinations_IncludeDuplicates()
+        public void GetCombinations_AdditionNoDuplicates()
         {
             Console.WriteLine("Enter a number: ");
             int usersNumber = Convert.ToInt32(Console.ReadLine());
 
-            List<List<int>> combinations = new List<List<int>>();
-            List<int> results = new List<int>();
-
-            
-            #region Addition
             for(int i = 0; i<usersNumber; i++)
             {
-                Console.WriteLine("Combination {0}: {1} + {2} = {3}", i, usersNumber -i, i, usersNumber);
+                /*Math Example
+                 * Users Number Entered = 10
+                 * 10+0 = 10
+                 * 9+1 = 9
+                 * 8+2 = 8
+                 * 7+3 = 10
+                 * 6+4 = 10
+                 * 5+5 = 10
+                 * 4+6 = 10 - notice that for an even number right after it hits 5=5 the equations turn into duplicates.
+                 * 3+7 = 10
+                 * 2+8 = 10
+                 * 1+9 = 10
+                 * 
+                 * Users Number Entered = 11
+                 * 11+0 = 11
+                 * 10+1 = 11
+                 * 9+2 = 11
+                 * 8+3 = 11
+                 * 7+4=11
+                 * 6+5=11 // Notice that as soon as the numbers are one number apart the duplicates start.
+                 * 5+6 = 11
+                 * 4+7 =11
+                 * 3+8 =11
+                 * 2+9 =11
+                 * 1+10 =11
+                 */
                 
+                //The first number in the equation is i (starts at 0 and works its way up) - defined in the loop
+                //The second number in the equation is the number entered by the user with the loop number subtracted from it (10-0, 9-1 etc.)
+                int checkMidPoint = usersNumber - i;
 
+                //For Even numbers we check to see if the second number in the equation is the same as the first. (5+5=10)
+                //For Odd Numbers we check to see if the second number in the equation is one lower than the loop number (5+6)
+                if(checkMidPoint == i || checkMidPoint == (i+1))
+                {
+                    //We still need to write the last equation to the console (5+5 or 5+6 for example)
+                    //But then we end.
+                    Console.WriteLine("Combination {0}: {1} + {2} = {3}", i, usersNumber - i, i, usersNumber);
+                    return;
+                }
+                else
+                {
+                    Console.WriteLine("Combination {0}: {1} + {2} = {3}", i, usersNumber - i, i, usersNumber);
+                }
             }            
-            #endregion
 
-            Console.WriteLine("");
-
-            #region Subtraction
-            for(int i = 0; i < usersNumber; i++)
-            {
-                
-                Console.WriteLine("Combination {0}: {1} - {2} = {3}", i+1, usersNumber + i, i, usersNumber);
-            }
-            #endregion
-
-            #region Multiplication
-            for(int i = 0; i<usersNumber; i++)
-            {
-               //nope Console.WriteLine("Combination {0}: {1} * {2} = {3}", i + 1, (usersNumber/(i+1)), i+1, usersNumber);
-            }
-
-            #endregion
         }
-         public void GetCombinations_NoDuplicates()
+        public void GetCombinations_SubtractionNoDuplicates()
         {
             Console.WriteLine("Enter a number: ");
             int usersNumber = Convert.ToInt32(Console.ReadLine());
 
-            List<List<int>> combinations = new List<List<int>>();
-            List<int> results = new List<int>();
+            for (int i = 0; i < usersNumber; i++)
+            {
+               int checkMidPoint = usersNumber - i;
 
+               if (checkMidPoint == i || checkMidPoint == (i + 1))
+                {
+                    Console.WriteLine("Combination {0}: {1} - {2} = {3}", i, usersNumber + i, i, usersNumber);
+                    return;
+                }
+                else
+                {
+                    Console.WriteLine("Combination {0}: {1} - {2} = {3}", i, usersNumber + i, i, usersNumber);
+                }
+            }
+
+        }
+         public void GetCombinations_AdditionDuplicates()
+        {
+            Console.WriteLine("Enter a number: ");
+            int usersNumber = Convert.ToInt32(Console.ReadLine());
 
             #region Addition
             for (int i = 0; i < usersNumber; i++)
             {
-                //Simple version (has duplicates)
-                //Console.WriteLine("Combination {0}: {1} + {2} = {3}", i, usersNumber -i, i, usersNumber);
-
-                //Clear the results list (gets a new result every time.
-                //results.Clear();
-                //results.Add(usersNumber - i); // Example Say it is the second loop and the user entered 10.  This would be 10 - 1 = 9  So we know 9 + 1 = 10;
-                //results.Add(i); // This is the number we just used above (1) to minus from the original number.
-                //combinations.Add(results); // This stores the 9 + 1 combination.
-                //Console.WriteLine("Combination {0}: {1} + {2} = {3}", i, results[0], results[1], usersNumber);
+                Console.WriteLine("Combination {0}: {1} + {2} = {3}", i, usersNumber -i, i, usersNumber);
 
             }
             #endregion
