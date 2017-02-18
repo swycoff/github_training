@@ -152,6 +152,68 @@ namespace CodeDrills_ConsoleApp
             Console.WriteLine(14 + -4 * 6 / 11); //14 - (24 / 11)   or 14 + (-24/11) which is 14 -2.
             Console.WriteLine(2 + 15 / 6 * 1 - 7 % 2);  //First 6*1 = 6.   Second 15/6 = 2  Third 7%2 = 1.  //2+2-1
         }
+        public void sarahsResultOfOperationGame()
+        {
+                        char Answer;
+            string Ans;
+
+            Console.Write("Ready for a challenge? (y/n)?  ");
+            Ans = Console.ReadLine();
+            Answer = char.Parse(Ans);
+
+            if(Answer == 'y') // first condition
+            {
+                Console.Write("\nGreat! See if you can solve these before the computer.\nEnter the answer for each problem.\n");
+            }
+            else // second condition
+                Console.Write("\nToo bad. Try anyway. Enter the answer for each problem.");
+
+            int prob1, prob2, prob3, prob4;
+            int ans1, ans2, ans3, ans4;
+            
+            ans1 = (-1 + 4 * 6);
+            ans2 = ((35 + 5) % 7);
+            ans3 = (14 + -4 * 6 / 11);
+            ans4 = (2 + 15 / 6 * 1 - 7 % 2);
+
+            Console.Write("\nProblem 1: (-1 + 4 * 6) = "); // correct answer is 23
+            prob1 = Convert.ToInt32(Console.ReadLine());
+                if(prob1 == ans1)
+                {
+                    Console.WriteLine("That's correct!");
+                }
+                else
+                    Console.WriteLine("Sorry, the correct answer is: " + ans1);
+
+            Console.Write("\nProblem 2: ((35 + 5) % 7) = "); // correct answer is 5
+            prob2 = Convert.ToInt32(Console.ReadLine()); 
+                if(prob2 == ans2)
+                {
+                    Console.WriteLine("That's correct!");
+                }
+                else
+                    Console.WriteLine("Actually, the answer is: " + ans2);
+                
+            Console.Write("\nProblem 3: (14 + -4 * 6 / 11) = "); // correct answer is 12
+            prob3 = Convert.ToInt32(Console.ReadLine());
+                if(prob3 == ans3)
+                {
+                    Console.WriteLine("You got it!");
+                }
+                else
+                    Console.WriteLine("Not quite. The answer is: " + ans3);
+                        
+            Console.Write("\nProblem 4: (2 + 15 / 6 * 1 - 7 % 2) = "); // correct answer is 5
+            prob4 = Convert.ToInt32(Console.ReadLine()); 
+                if(prob4 == ans4)
+                {
+                    Console.WriteLine("BOOM!");
+                }
+                else
+                    Console.WriteLine("No, sorry. The answer is: " + ans4);
+                Console.ReadLine();
+        }
+
         /// <summary>
         /// Print out the result of multiplying three numbers together given by the user.
         /// </summary>

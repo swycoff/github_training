@@ -48,7 +48,9 @@
     <Compile Include="IO Operations\ParsingXMLFiles.cs" />
     <Compile Include="IO Operations\streamReaderExamples.cs" />
     <Compile Include="IO Operations\streamWriterExamples.cs" />
+    <Compile Include="Lists\LinkedLists\LinkedLists.cs" />
     <Compile Include="Notes\Notes_MakeExamples.cs" />
+    <Compile Include="Notes\TrainingResources_checkout.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -58,6 +60,7 @@
   <ItemGroup>
     <Content Include="Files\SampleXMLFile1.xml" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
