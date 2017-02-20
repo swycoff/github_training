@@ -1,0 +1,6 @@
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\XML\bin\Debug\XMLExamples.exe.config
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\XML\obj\Debug\XMLExamples.csprojResolveAssemblyReference.cache
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\XML\bin\Debug\XMLExamples.exe
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\XML\bin\Debug\XMLExamples.pdb
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\XML\obj\Debug\XMLExamples.exe
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\XML\obj\Debug\XMLExamples.pdb

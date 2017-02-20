@@ -1,0 +1,6 @@
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\IntermediateCodeDrills\bin\Debug\IntermediateCodeDrills.exe.config
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\IntermediateCodeDrills\bin\Debug\IntermediateCodeDrills.exe
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\IntermediateCodeDrills\bin\Debug\IntermediateCodeDrills.pdb
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\IntermediateCodeDrills\obj\Debug\IntermediateCodeDrills.csprojResolveAssemblyReference.cache
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\IntermediateCodeDrills\obj\Debug\IntermediateCodeDrills.exe
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\IntermediateCodeDrills\obj\Debug\IntermediateCodeDrills.pdb

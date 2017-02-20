@@ -1,0 +1,6 @@
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\CodeDrills_PublicVsPrivateClass\bin\Debug\CodeDrills_PublicVsPrivateClass.exe.config
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\CodeDrills_PublicVsPrivateClass\bin\Debug\CodeDrills_PublicVsPrivateClass.exe
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\CodeDrills_PublicVsPrivateClass\bin\Debug\CodeDrills_PublicVsPrivateClass.pdb
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\CodeDrills_PublicVsPrivateClass\obj\Debug\CodeDrills_PublicVsPrivateClass.exe
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\CodeDrills_PublicVsPrivateClass\obj\Debug\CodeDrills_PublicVsPrivateClass.pdb
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\CodeDrills_PublicVsPrivateClass\obj\Debug\CodeDrills_PublicVsPrivateClass.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\SystemIOOperations\bin\Debug\SystemIOOperations.exe.config
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\SystemIOOperations\obj\Debug\SystemIOOperations.csprojResolveAssemblyReference.cache
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\SystemIOOperations\bin\Debug\SystemIOOperations.exe
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\SystemIOOperations\bin\Debug\SystemIOOperations.pdb
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\SystemIOOperations\obj\Debug\SystemIOOperations.exe
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\SystemIOOperations\obj\Debug\SystemIOOperations.pdb

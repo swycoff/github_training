@@ -1,0 +1,6 @@
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\Lists\bin\Debug\Lists.exe.config
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\Lists\bin\Debug\Lists.exe
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\Lists\bin\Debug\Lists.pdb
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\Lists\obj\Debug\Lists.csprojResolveAssemblyReference.cache
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\Lists\obj\Debug\Lists.exe
+C:\Users\swycoff\Google Drive\CodeDrills\CodeDrills_ConsoleApp\Lists\obj\Debug\Lists.pdb
